@@ -12,10 +12,6 @@ body {
     left: 0;
 }
 
-#dots {
-    float: left;
-}
-
 button,
 input {
     position: relative;
