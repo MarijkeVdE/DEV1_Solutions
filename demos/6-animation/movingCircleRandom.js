@@ -15,8 +15,8 @@ drawMovingCircle();
 
 function drawMovingCircle() {
 
-    x += Utils.randomNumber(-1, 1) * 10;
-    y += Utils.randomNumber(-1, 1) * 10;
+    x += Utils.randomNumber(-1, 1) * 100;
+    y += Utils.randomNumber(-1, 1) * 100;
 
     context.fillStyle = Utils.hsl(colorAngle, 100, 50);
     Utils.fillCircle(x, y, 25);
